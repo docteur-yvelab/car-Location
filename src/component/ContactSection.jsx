@@ -47,7 +47,7 @@ export default function ContactSection() {
                             <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">@</div>
                             <div>
                                 <p className="text-xs text-gray-400 font-bold uppercase tracking-widest">Email</p>
-                                <p className="font-bold text-gray-900 text-lg">stivezidane093@gmail.com.com</p>
+                                <p className="font-bold text-gray-900 text-lg">stivezidane093@gmail.com</p>
                             </div>
                         </div>
                         <a 
