@@ -4,7 +4,7 @@ const CarCard = ({ car, onReserve }) => {
     return (
         <div className="group bg-white rounded-[2rem] p-4 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300">
         <div className="overflow-hidden rounded-[1.5rem] relative">
-            <img src={car.image} className="h-56 w-full object-cover group-hover:scale-105 transition duration-500" alt={car.name} />
+            <img src={car.image_url} className="h-56 w-full object-cover group-hover:scale-105 transition duration-500" alt={car.name} />
             <div className="absolute top-3 right-3 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-gray-700">
             {car.type}
             </div>
@@ -29,4 +29,4 @@ const CarCard = ({ car, onReserve }) => {
     )
 }
 
-export default CarCard
+export default CarCard;
