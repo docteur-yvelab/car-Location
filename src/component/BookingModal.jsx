@@ -18,8 +18,8 @@ export default function BookingModal({ car, onClose }) {
 
         setStatus('loading');
         
-        const SERVICE_ID = "service_h3jrf3n";
-        const TEMPLATE_ID = "template_10q08e2";
+        const SERVICE_ID = "service_qmhx83q";
+        const TEMPLATE_ID = "template_6yi7tm5";
 
         const templateParams = {
         customerName: e.target.fullName.value,
@@ -45,7 +45,7 @@ export default function BookingModal({ car, onClose }) {
     return (
         <div 
         className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity duration-300"
-        onClick={(e) => e.target === e.currentTarget && onClose()} // Ferme si on clique à côté
+        onClick={(e) => e.target === e.currentTarget && onClose()}
         role="dialog"
         aria-modal="true"
         >

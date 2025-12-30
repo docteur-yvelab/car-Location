@@ -10,10 +10,10 @@ export default function ContactSection() {
     setIsSending(true);
 
     try {
-      
+
       await emailjs.sendForm(
-        'service_h3jrf3n', 
-        'template_10q08e2', 
+        'service_qmhx83q', 
+        'template_zxa4mx7', 
         e.target, 
         'yItHRiAj14jEuiduQ'
       );
