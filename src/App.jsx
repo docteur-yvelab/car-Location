@@ -254,7 +254,7 @@ function App() {
 
       <Footer />
 
-      {/* Modal de Réservation avec EmailJS */}
+      {/* Réservation avec EmailJS */}
       {selectedCar && (
         <BookingModal car={selectedCar} onClose={() => setSelectedCar(null)} />
       )}

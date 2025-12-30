@@ -92,15 +92,12 @@ export default function NavBar({ setActivePage, activePage }) {
                     
                     <div className="w-20 h-1 bg-blue-600 rounded-full"></div>
                     
-                    {/* <button className="w-full max-w-xs bg-blue-600 text-white py-5 rounded-2xl text-xl font-bold shadow-2xl shadow-blue-500/20 active:scale-95 transition-all">
-                        Réserver maintenant
-                    </button> */}
                     <button 
-    onClick={() => handleNavigation('Catalogue')}
-    className="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-blue-500/30 hover:bg-blue-700 transition-all active:scale-95"
->
-    Réserver maintenant
-</button>
+                        onClick={() => handleNavigation('Catalogue')}
+                        className="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-blue-500/30 hover:bg-blue-700 transition-all active:scale-95"
+                    >
+                        Réserver maintenant
+                    </button>
                 </div>
             </div>
         </nav>

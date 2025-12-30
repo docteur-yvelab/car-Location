@@ -1,7 +1,7 @@
 export default function Footer() {
     const socialLinks = {
         whatsapp: "https://wa.me/237694637342?text=Bonjour%20Stive%2C%20je%20souhaiterais%20obtenir%20des%20informations%20concernant%20la%20location%20d%27un%20v%C3%A9hicule.",
-        // whatsapp: "https://wa.me/237694637342",
+        
         github: "https://github.com/docteur-yvelab",
         linkedin: "https://www.linkedin.com/in/stive-thiakou-803577384",
         facebook: "https://www.facebook.com/stive.thiakou.2025",
